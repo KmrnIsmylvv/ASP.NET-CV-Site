@@ -113,17 +113,17 @@
                         <div class="resume-item d-flex flex-column flex-md-row mb-5">
                             <div class="resume-content mr-auto">
                                 <h3 class="mb-0">
-                                    <asp:Label ID="Label7" runat="server" Text='<%# Eval("BAŞLIQ") %>'></asp:Label></h3>
+                                    <asp:Label ID="Label7" runat="server" Text='<%# Eval("BASLIQ") %>'></asp:Label></h3>
                                 <div class="subheading mb-3">
-                                    <asp:Label ID="Label8" runat="server" Text='<%# Eval("ALT BAŞLIQ") %>'></asp:Label>
+                                    <asp:Label ID="Label8" runat="server" Text='<%# Eval("ALTBASLIQ") %>'></asp:Label>
                                 </div>
                                 <p>
-                                    <asp:Label ID="Label9" runat="server" Text='<%# Eval("MƏLUMAT") %>'></asp:Label>
+                                    <asp:Label ID="Label9" runat="server" Text='<%# Eval("ACIQLAMA") %>'></asp:Label>
                                 </p>
                             </div>
                             <div class="resume-date text-md-right">
                                 <span class="text-primary">
-                                    <asp:Label ID="Label10" runat="server" Text='<%# Eval("TARİX") %>'></asp:Label></span>
+                                    <asp:Label ID="Label10" runat="server" Text='<%# Eval("TARIX") %>'></asp:Label></span>
                             </div>
                         </div>
                     </div>

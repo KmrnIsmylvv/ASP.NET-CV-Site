@@ -14,6 +14,12 @@ namespace DinamikCVSayti
             DataSet1TableAdapters.TBL_HAQQIMDATableAdapter dt = new DataSet1TableAdapters.TBL_HAQQIMDATableAdapter();
             Repeater1.DataSource = dt.HaqqimdaListele();
             Repeater1.DataBind();
+
+
+            DataSet1TableAdapters.TBL_TECRUBELERIMTableAdapter dt2 = new DataSet1TableAdapters.TBL_TECRUBELERIMTableAdapter();
+            Repeater2.DataSource = dt2.TecrubeListi();
+            Repeater2.DataBind();
+
         }
     }
 }
