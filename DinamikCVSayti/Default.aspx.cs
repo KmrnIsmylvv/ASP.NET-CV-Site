@@ -20,6 +20,9 @@ namespace DinamikCVSayti
             Repeater2.DataSource = dt2.TecrubeListi();
             Repeater2.DataBind();
 
+            DataSet1TableAdapters.TBL_TEHSILTableAdapter dt3 = new DataSet1TableAdapters.TBL_TEHSILTableAdapter();
+            Repeater3.DataSource = dt3.TehsilListi();
+            Repeater3.DataBind();
         }
     }
 }
