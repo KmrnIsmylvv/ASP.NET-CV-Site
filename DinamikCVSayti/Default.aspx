@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>WEB BLOG 2021</title>
 
     <!-- Bootstrap core CSS -->
     <link href="Files/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -165,12 +165,10 @@
         </section>
 
         <hr class="m-0">
-        <h2 class="mb-5">BACARIQLAR</h2>
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-
             <div class="my-auto">
-
+                <h2 class="mb-5">BACARIQLAR</h2>
                 <div class="subheading mb-3">Proqramlaşdırma Dilləri  </div>
                 <ul class="list-inline dev-icons">
                     <li class="list-inline-item">
@@ -195,44 +193,24 @@
                         <i class="fab fa-sass"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fab fa-less"></i>
+                        <i class="fab fa-github"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fab fa-wordpress"></i>
+                        <i class="fab fa-git-square"></i>
                     </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-gulp"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-grunt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-npm"></i>
-                    </li>
-                </ul>
 
+                </ul>
                 <div class="subheading mb-3">Bacarıqlar</div>
                 <asp:Repeater ID="Repeater4" runat="server">
                     <ItemTemplate>
                         <ul class="fa-ul mb-0">
                             <li>
                                 <i class="fa-li fa fa-check"></i>
-
                                 <asp:Label ID="Label16" runat="server" Text='<%#Eval("BACARIQLAR")%>'></asp:Label></li>
-
-                            <%-- <i class="fa-li fa fa-check"></i>
-                                 <asp:Label ID="Label17" runat="server" Text='<%#Eval("BACARIQLAR")%>'></asp:Label>
-                        </li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Functional Teams</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Agile Development &amp; Scrum</li>--%>
                         </ul>
-                        </div>
                     </ItemTemplate>
                 </asp:Repeater>
+            </div>
         </section>
 
         <hr class="m-0">
@@ -256,42 +234,20 @@
         <hr class="m-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-            <h2 class="mb-5">MÜKAFATLAR &amp; SERTİFİKATLAR</h2>
 
-            <asp:Repeater ID="Repeater6" runat="server">
-                <ItemTemplate>
-                    <div class="my-auto">
+            <div class="my-auto">
+                <h2 class="mb-5">MÜKAFATLAR &amp; SERTİFİKATLAR</h2>
+
+                <asp:Repeater ID="Repeater6" runat="server">
+                    <ItemTemplate>
                         <ul class="fa-ul mb-0">
                             <li>
                                 <i class="fa-li fa fa-trophy text-warning"></i>
                                 <asp:Label ID="Label18" runat="server" Text='<%#Eval("MUKAFATLAR") %>'></asp:Label></li>
-                            <%--<li>
-                                <i class="fa-li fa fa-trophy text-warning"></i>
-                                Mobile Web Specialist - Google Certification</li>
-                            <li>
-                                <i class="fa-li fa fa-trophy text-warning"></i>
-                                1<sup>st</sup>
-                                Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-                            <li>
-                                <i class="fa-li fa fa-trophy text-warning"></i>
-                                1<sup>st</sup>
-                                Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-                            <li>
-                                <i class="fa-li fa fa-trophy text-warning"></i>
-                                2<sup>nd</sup>
-                                Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-                            <li>
-                                <i class="fa-li fa fa-trophy text-warning"></i>
-                                1<sup>st</sup>
-                                Place - James Buchanan High School - Hackathon 2006</li>
-                            <li>
-                                <i class="fa-li fa fa-trophy text-warning"></i>
-                                3<sup>rd</sup>
-                                Place - James Buchanan High School - Hackathon 2005</li>--%>
                         </ul>
-                    </div>
-                </ItemTemplate>
-            </asp:Repeater>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
         </section>
 
     </div>
