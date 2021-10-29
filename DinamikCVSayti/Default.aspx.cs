@@ -23,6 +23,18 @@ namespace DinamikCVSayti
             DataSet1TableAdapters.TBL_TEHSILTableAdapter dt3 = new DataSet1TableAdapters.TBL_TEHSILTableAdapter();
             Repeater3.DataSource = dt3.TehsilListi();
             Repeater3.DataBind();
+
+            DataSet1TableAdapters.TBL_BACARIQLARIMTableAdapter dt4 = new DataSet1TableAdapters.TBL_BACARIQLARIMTableAdapter();
+            Repeater4.DataSource = dt4.BacariqlarList();
+            Repeater4.DataBind();
+
+            DataSet1TableAdapters.TBL_MARAQLARIMTableAdapter dt5 = new DataSet1TableAdapters.TBL_MARAQLARIMTableAdapter();
+            Repeater5.DataSource = dt5.MaraqlarimList();
+            Repeater5.DataBind();
+
+            DataSet1TableAdapters.TBL_MUKAFATLARIMTableAdapter dt6 = new DataSet1TableAdapters.TBL_MUKAFATLARIMTableAdapter();
+            Repeater6.DataSource = dt6.MukafatlarimList();
+            Repeater6.DataBind();
         }
     }
 }
